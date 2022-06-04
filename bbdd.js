@@ -5,7 +5,7 @@ export const projects = [
         name:'PomoDoIt',
         description:'A productivity spa that combines the pomodoro technique and the use of todos for help you with your time administration.',
         technologies: [{ img: process.env.DOMAIN_URL + '/images/nextjs.svg', name: 'nextjs' }, { img: process.env.DOMAIN_URL + '/images/styledcomponents.svg', name: 'styledcomponents' }, { img: process.env.DOMAIN_URL + '/images/express.svg', name: 'express' }, { img: process.env.DOMAIN_URL + '/images/mongodb.svg', name: 'mongodb' }],
-        img: process.env.DOMAIN_URL + '/images/myFace.jpeg',
+        img: process.env.DOMAIN_URL + '/images/pomodoit.png',
         url:'https://pomodoit-client.vercel.app/'
     },
     {

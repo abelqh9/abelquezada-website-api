@@ -17,10 +17,17 @@ export const projects = [
     },
     {
         name:'Countries App',
-        description:'A basic spa created only with vanilla js (frontend mentor challege)',
+        description:'A basic spa created only with vanilla js (frontend mentor challenge)',
         technologies: [{ img: process.env.DOMAIN_URL + '/images/html.svg', name: 'html' }, { img: process.env.DOMAIN_URL + '/images/css.svg', name: 'css' }, { img: process.env.DOMAIN_URL + '/images/javascript.svg', name: 'javascript' }],
         img: process.env.DOMAIN_URL + '/images/countries-app.png',
         url:'https://countries-app-neon.vercel.app/'
+    },
+    {
+        name:'Bookmark Landing Page',
+        description:'A responsive landing page (frontend mentor challenge)',
+        technologies: [{ img: process.env.DOMAIN_URL + '/images/html.svg', name: 'html' }, { img: process.env.DOMAIN_URL + '/images/sass.svg', name: 'sass' }, { img: process.env.DOMAIN_URL + '/images/javascript.svg', name: 'javascript' }],
+        img: process.env.DOMAIN_URL + '/images/bookmark-landing-page.png',
+        url:'https://bookmark-landing-page-abelqh9.vercel.app/'
     },
 ];
 

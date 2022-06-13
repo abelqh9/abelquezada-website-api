@@ -3,7 +3,7 @@ import 'dotenv/config';
 export const projects = [
     {
         name:'PomoDoIt',
-        description:'A productivity spa that combines the Pomodoro technique and the use of todos for help you with your time administration.',
+        description:'A productivity SPA that combines the Pomodoro technique and the use of todos for help you with your time administration.',
         technologies: [{ img: process.env.DOMAIN_URL + '/images/nextjs.svg', name: 'nextjs' }, { img: process.env.DOMAIN_URL + '/images/styledcomponents.svg', name: 'styledcomponents' }, { img: process.env.DOMAIN_URL + '/images/express.svg', name: 'express' }, { img: process.env.DOMAIN_URL + '/images/mongodb.svg', name: 'mongodb' }],
         img: process.env.DOMAIN_URL + '/images/pomodoit.png',
         url:'https://pomodoit-client.vercel.app/'
@@ -12,7 +12,7 @@ export const projects = [
         name:'Pet Shelter',
         description:'A simple SPA that tries to simulate an adoption system for a pet shelter',
         technologies: [{ img: process.env.DOMAIN_URL + '/images/react.svg', name: 'react' }, { img: process.env.DOMAIN_URL + '/images/bootstrap.svg', name: 'bootstrap' }, { img: process.env.DOMAIN_URL + '/images/reactrouter.svg', name: 'reactrouter' }, { img: process.env.DOMAIN_URL + '/images/socketio.svg', name: 'socketio' }],
-        img: process.env.DOMAIN_URL + '/images/pet-shelter.jpeg',
+        img: process.env.DOMAIN_URL + '/images/pet-shelter.png',
         url:'https://github.com/abelqh9/pet-shelter'
     },
     {

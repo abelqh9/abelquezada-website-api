@@ -3,21 +3,21 @@ import 'dotenv/config';
 export const projects = [
     {
         name:'PomoDoIt',
-        description:'A productivity spa that combines the pomodoro technique and the use of todos for help you with your time administration.',
+        description:'A productivity spa that combines the Pomodoro technique and the use of todos for help you with your time administration.',
         technologies: [{ img: process.env.DOMAIN_URL + '/images/nextjs.svg', name: 'nextjs' }, { img: process.env.DOMAIN_URL + '/images/styledcomponents.svg', name: 'styledcomponents' }, { img: process.env.DOMAIN_URL + '/images/express.svg', name: 'express' }, { img: process.env.DOMAIN_URL + '/images/mongodb.svg', name: 'mongodb' }],
         img: process.env.DOMAIN_URL + '/images/pomodoit.png',
         url:'https://pomodoit-client.vercel.app/'
     },
     {
         name:'Pet Shelter',
-        description:'A spa that try to simulate an adoption system for a pet shelter',
+        description:'A simple SPA that tries to simulate an adoption system for a pet shelter',
         technologies: [{ img: process.env.DOMAIN_URL + '/images/react.svg', name: 'react' }, { img: process.env.DOMAIN_URL + '/images/bootstrap.svg', name: 'bootstrap' }, { img: process.env.DOMAIN_URL + '/images/reactrouter.svg', name: 'reactrouter' }, { img: process.env.DOMAIN_URL + '/images/socketio.svg', name: 'socketio' }],
-        img: process.env.DOMAIN_URL + '/images/myFace.jpeg',
-        url:'#'
+        img: process.env.DOMAIN_URL + '/images/pet-shelter.jpeg',
+        url:'https://github.com/abelqh9/pet-shelter'
     },
     {
         name:'Countries App',
-        description:'A basic spa created only with vanilla js (frontend mentor challenge)',
+        description:'A basic SPA created only with vanilla js (frontend mentor challenge)',
         technologies: [{ img: process.env.DOMAIN_URL + '/images/html.svg', name: 'html' }, { img: process.env.DOMAIN_URL + '/images/css.svg', name: 'css' }, { img: process.env.DOMAIN_URL + '/images/javascript.svg', name: 'javascript' }],
         img: process.env.DOMAIN_URL + '/images/countries-app.png',
         url:'https://countries-app-neon.vercel.app/'
